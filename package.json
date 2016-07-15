@@ -1,0 +1,15 @@
+{
+  "name": "note-profiler",
+  "version": "0.0.1",
+  "description": "My node profiler example.",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "global-install": "npm install -g node-inspector"
+  },
+  "devDependencies": {
+    "v8-profiler": "*"
+  }
+}
